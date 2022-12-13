@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Euclid Circular A";
+  background: #181717 linear-gradient(45deg, #272525, #151515);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  position: fixed;
+  z-index: 0;
+  transition: 0.3s;
+}
+
+body img:nth-child(1) {
+  width: 200px;
+  top: 30px;
+}
+
+body img:nth-child(2) {
+  width: 400px;
+  left: 500px;
+  top: 300px;
+}
+
+body img:nth-child(3) {
+  width: 100px;
+  left: 60px;
+  top: 600px;
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 15%;
+}
