@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  perspective: 1000px;
+  margin: 0;
+  padding: 0;
+  font-family: "Euclid Circular A", "Poppins";
+  background: #6733bd;
+  color: #f9f9f9;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 320px;
+  border-radius: 16px;
+  background: url("bg.webp");
+  background-size: 110%;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.card h1 {
+  font-size: 38px;
+}
+
+.card button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 0;
+  background: #221e6f;
+  color: #f9f9f9;
+  font-family: inherit;
+}
