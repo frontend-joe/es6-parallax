@@ -1,0 +1,108 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: visible;
+  position: relative;
+  height: unset;
+  font-family: "Euclid Circular A", "Poppins";
+  color: #222222;
+  text-align: center;
+}
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 200%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #f7f7f7;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.banner h2,
+.footer h2 {
+  margin: 20px 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 16px;
+  background: #fff;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav img {
+  width: 32px;
+  height: 32px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 80px;
+}
+
+h2 {
+  margin: 50px 0 20px;
+}
+
+p {
+  opacity: 0.66;
+  font-size: 16px;
+}
+
+.banner {
+  flex-direction: row;
+  text-align: left;
+  gap: 30px;
+  background: #ccb7ff;
+}
+
+.footer {
+  background: #ffffff;
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+}
+
+.container .panel:nth-child(odd) {
+  background: #fff;
+}
