@@ -1,0 +1,40 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  font-family: "Euclid Circular A", "Poppins";
+}
+
+body {
+  margin: 0;
+  background: #222222;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  z-index: 1;
+  font-size: 3em;
+  font-weight: 400;
+}
